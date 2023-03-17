@@ -8,7 +8,8 @@ from itertools import groupby
 import wrapit as wrapit
 import streamlit.components.v1 as components
 
-file_loc = "/Users/nidaaziz/python/SKP_survey.xlsx"
+# file_loc = "/Users/nidaaziz/python/SKP_survey.xlsx"
+file_loc = "SKP_survey.xlsx"
 
 df_channeluse = pd.read_excel(file_loc, sheet_name="Cleaned qualified responses", usecols = "AR:BF", skiprows=[0], )
 
